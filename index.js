@@ -2,6 +2,7 @@ const mongoose = require('mongoose')
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
+const userRouter = require('./router/user')
 const db = mongoose.connection
 try {
     mongoose.connect('mongodb://localhost:27017/twitter')
