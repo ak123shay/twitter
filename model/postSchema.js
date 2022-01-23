@@ -11,7 +11,7 @@ const postSchema = {
         type: String,
         required: true
     },
-    user_id: {
+    user_handle: {
         type: String,
         required: true
     },
