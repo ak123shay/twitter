@@ -1,6 +1,7 @@
-let mongoose = require('mongoose')
+const mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
+//user schema start
 const userSchema = {
     user_handle: {
         type: String,
@@ -26,7 +27,5 @@ const userSchema = {
         type: Array
     }
  }
-
- 
-
+//user schema end
 module.exports = userSchema
