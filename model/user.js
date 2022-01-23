@@ -28,28 +28,6 @@ const userSchema = {
     }
  }
 
- const postSchema = {
-    post_id: {
-        type: Schema.ObjectId,
-        required: true,
-        auto: true
-    },
-    content: {
-        type: String,
-        required: true
-    },
-    user_id: {
-        type: Schema.ObjectId,
-        required: true
-    },
-    creation_date: {
-        type: Date,
-        required: true
-    },
-    likes: {
-        type: Number,
-        required: true
-    }
- }
+ 
 
 module.exports = userSchema

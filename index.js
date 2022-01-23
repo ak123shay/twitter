@@ -3,6 +3,8 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 const db = mongoose.connection
+var userRouter = require('./router/user')
+var postRouter = require('./router/postRouter')
 try {
     mongoose.connect('mongodb://localhost:27017/twitter')
   } catch (error) {
@@ -21,5 +23,6 @@ app.listen(3000, () => {
 })
 
 app.use('/user', userRouter)
+app.use('/user/post', postRouter)
 
 
