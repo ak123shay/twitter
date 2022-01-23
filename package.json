@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/arpit1107/twitter#readme",
   "dependencies": {
+    "body-parser": "^1.19.1",
     "express": "^4.17.2",
+    "g": "^2.0.1",
     "mongoose": "^6.1.7",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
   }
 }
