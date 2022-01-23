@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/arpit1107/twitter#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7",
+    "nodemon": "^2.0.15"
   }
 }
