@@ -48,7 +48,7 @@ router.post("/add_user", async (request, response) => {
                 error: "No user found"
             }, 404)
         } else {
-            console.log(user[0].followers)
+            // console.log(user[0].followers)
             response.send(user[0].followers, 200)
         }
     }).get("/:user/following", async (request,response) => {
